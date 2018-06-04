@@ -43,4 +43,45 @@ display_errors = on
 date.timezone = America/Los_Angeles
 ```
 
+## Variables
+* Prefix $
+* Start with a letter or an underscore
+* Only letters, numbers and underscores
+* Case sensitive
+
+### Data Types
+* String
+* Integers
+* floats
+* Booleans
+* Arrays
+* Objects
+* NULL
+* Resource
+	
+ ```php
+ 	$output = 'Hello World!';
+
+	$num1 = 4;
+	$num2 = 10;
+	$sum = $num1 + $num2;
+
+	$string1 = 'Hello';
+	$string2 = 'World';
+	$greeting = $string1 .' '. $string2.'!';
+	$greeting2 = "$string1 $string2";
+
+	$string3 = "They\"re Here";
+
+	$float1 = 4.4;
+	$bool1 = true;
+
+	define('GREETING', 'Hello Everyone', true);
+
+	echo greeting;
+  
+  ```
+	
+
+
 http://blog.koonk.com/2015/07/46-useful-php-code-snippets-that-can-help-you-with-your-php-projects/
